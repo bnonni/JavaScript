@@ -1,8 +1,4 @@
-function removeChar(str){
- var newStr = str.substr(1);
- var lastStr = newStr.slice(0, -1);
- return lastStr;
-};
+const removeChar = str => str.slice(1, -1);
 
 
 console.log(removeChar('eloquent'))
