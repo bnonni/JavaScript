@@ -11,7 +11,7 @@ function isTriangle(a,b,c)
 
 console.log(isTriangle(1,2,2));
 // true
-console.log(isTriangle(7,2,2));
+console.log(isTriangle(7,2,2)); 
 // false
 console.log(isTriangle(2,3,4));
 console.log(isTriangle(10,7,2));
